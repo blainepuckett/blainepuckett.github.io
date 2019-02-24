@@ -2,12 +2,22 @@ body {
     margin: 0;
 }
 
-.content {
+/* .content {
     color: #999;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 80px;
     line-height: 80px;
     font-size-adjust: none;
+    font-weight: 200;
+    min-height: 100vh;
+} */
+
+
+.content {
+    color: #999;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
     font-weight: 200;
     min-height: 100vh;
 }
