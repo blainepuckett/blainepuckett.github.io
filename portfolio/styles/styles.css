@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+
+    background-color: body,
+
+}
+
+.work-title::after {
+    height: 2px;
+    width: 65px;
+    margin-top: .35rem;
+    ;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    content: "";
+    background-color:
+        #343a40;
+}
+
+.overlay:hover {
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
+}
+
+.copyright {
+    font-size: 11px;
+
+}
+
+.spacer {
+    height:
+        50px;
+}
