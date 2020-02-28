@@ -38,20 +38,20 @@ p {
     box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
 }
 
-.cs-link {
+a.cs-link {
     color: #212529;
 }
 
-.cs-link:hover {
+a.cs-link:hover {
     color: orange;
     text-decoration: none;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
     color: orange !important;
 }
 
-.navbar-brand:hover {
+a.navbar-brand:hover {
     color: orange !important;
 }
 
