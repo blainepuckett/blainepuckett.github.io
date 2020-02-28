@@ -38,21 +38,21 @@ p {
     box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
 }
 
-a.cs-link {
+.cs-link {
     color: #212529;
 }
 
-a.cs-link:hover {
-    color: orange;
+.cs-link:hover {
+    color: #FFA500;
     text-decoration: none;
 }
 
-a.nav-link:hover {
-    color: orange !important;
+.nav-link:hover {
+    color: #FFA500 !important;
 }
 
-a.navbar-brand:hover {
-    color: orange !important;
+.navbar-brand:hover {
+    color: #FFA500 !important;
 }
 
 
@@ -70,7 +70,7 @@ a.navbar-brand:hover {
     left: 0px;
     content: "";
     background-color:
-        orange;
+    #FFA500;
 }
 
 .case-study-title::after {
@@ -84,7 +84,7 @@ a.navbar-brand:hover {
     left: 0px;
     content: "";
     background-color:
-        orange;
+    #FFA500;
 }
 
 
