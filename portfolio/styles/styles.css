@@ -4,6 +4,27 @@ html {
     width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    Font-Family: 'Roboto', Sans-Serif;
+}
+
+p {
+    Font-Family: 'Source Sans Pro', Sans-Serif; 
+}
+
+.brand-font {
+    Font-Family: 'Roboto', Sans-Serif;
+}
+
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
 
 .work-title::after {
     height: 2px;
