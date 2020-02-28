@@ -30,13 +30,32 @@ p {
 /* Links */
 
 
-/* case study link hover */
+/* special links & hovers */
 
   img.overlay:hover {
     -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
     -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
     box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
 }
+
+.cs-link {
+    color: #212529;
+}
+
+.cs-link:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+.navbar-brand:hover {
+    color: orange !important;
+}
+
+
 
 /* Text Lines flourishes */
 
@@ -51,7 +70,7 @@ p {
     left: 0px;
     content: "";
     background-color:
-        #343a40;
+        orange;
 }
 
 .case-study-title::after {
@@ -65,7 +84,7 @@ p {
     left: 0px;
     content: "";
     background-color:
-        #343a40;
+        orange;
 }
 
 
