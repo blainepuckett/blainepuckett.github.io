@@ -12,11 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     Font-Family: 'Source Sans Pro', Sans-Serif; 
+   
 }
 
 .brand-font {
     Font-Family: 'Roboto', Sans-Serif;
 }
+
+/* Font Weight */
 
 .text-regular {
     font-weight: 400;
@@ -26,32 +29,78 @@ p {
     font-weight: 700;
 }
 
+/* Font Sizes */
+
+.font-md {
+    font-size: 1.2rem
+}
+
+.font-lg {
+    font-size: 1.6rem;
+}
+
+.font-xl {
+    font-size: 2.4rem;
+}
 
 /* Links */
 
+a:link {
+    color: #212529;
+    text-decoration: underline;
+}
 
-/* special links & hovers */
+/* visited link */
+a:visited {
+    color:#212529;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:#FFA500 !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color:#FFA500;
+  }
 
-  img.overlay:hover {
+/* All image links have shadow */
+a img:hover {
     -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
     -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
     box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
 }
 
-.cs-link {
+
+/* special links*/
+
+a.cs-link {
     color: #212529;
+    text-decoration: none;
 }
 
-.cs-link:hover {
+a.cs-link:hover {
     color: #FFA500;
     text-decoration: none;
 }
 
-.nav-link:hover {
-    color: #FFA500 !important;
+a.nav-link {
+    color:#212529;
+    text-decoration: none ;
 }
 
-.navbar-brand:hover {
+a.navbar-brand {
+    color:#212529;
+    text-decoration: none ;
+}
+
+a.nav-link:hover {
+    color: #FFA500 !important;
+    text-decoration: none ;
+}
+
+a.navbar-brand:hover {
     color: #FFA500 !important;
 }
 
