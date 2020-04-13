@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    Font-Family: 'Source Sans Pro', Sans-Serif; 
-   
+    Font-Family: Arial, 'Source Sans Pro', Sans-Serif; 
+    line-height: 1.6;
 }
 
 .brand-font {
@@ -32,7 +32,7 @@ p {
 /* Font Sizes */
 
 .font-md {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .font-lg {
