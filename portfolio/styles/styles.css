@@ -6,12 +6,17 @@ html {
 
 /* General Fonts and text  */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     Font-Family: 'Roboto', Sans-Serif;
 }
 
 p {
-    Font-Family: Arial, 'Source Sans Pro', Sans-Serif; 
+    Font-Family: Arial, 'Source Sans Pro', Sans-Serif;
     line-height: 1.6;
 }
 
@@ -52,18 +57,18 @@ a:link {
 
 /* visited link */
 a:visited {
-    color:#212529;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color:#FFA500 !important;
-  }
-  
-  /* selected link */
-  a:active {
-    color:#FFA500;
-  }
+    color: #212529;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFA500 !important;
+}
+
+/* selected link */
+a:active {
+    color: #FFA500;
+}
 
 /* All image links have shadow */
 a img:hover {
@@ -86,18 +91,18 @@ a.cs-link:hover {
 }
 
 a.nav-link {
-    color:#212529;
-    text-decoration: none ;
+    color: #212529;
+    text-decoration: none;
 }
 
 a.navbar-brand {
-    color:#212529;
-    text-decoration: none ;
+    color: #212529;
+    text-decoration: none;
 }
 
 a.nav-link:hover {
     color: #FFA500 !important;
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 a.navbar-brand:hover {
@@ -154,6 +159,32 @@ a.navbar-brand:hover {
 }
 
 */
+
+
+/* About Page Specific */
+
+.contact-size {
+    font-size: 2rem;
+}
+
+.mail {
+    color: #c13a2c;
+}
+
+.linkdin {
+    color: #0073b0;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.invision {
+    color: #ff3366;
+}
+
+
+
 
 /* Footer related classes */
 .copyright {
