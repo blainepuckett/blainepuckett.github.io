@@ -1,5 +1,6 @@
+/* -----Body background image--------------- */
 body {
-    /* Had to put height 100% to get full VH to work on mobile chrome */
+    /* Had to put height 100% to get full VH to work on Chrome Mobile */
     height: 100%;
     margin: 0;
     background-image: url("/images/bkg-img-temp.jpg");
@@ -9,36 +10,39 @@ body {
 
 }
 
-
+/* ---------Settings heights for the main content block ------*/
 .row-height {
-    /* webkit-fill-available for safari mobile and desktop sizing properly */
+    /* webkit-fill-available for safari sizing properly */
     min-height: -webkit-fill-available;
-    /* min-height: -moz-available; */
     min-height: fill-available;
-    /* min-height: 100vh; */
+
 }
 
-/* did this to target above workaround only for mobile */
+/* did this to use vh on desktop browsers */
 @media (min-width: 720px) {
     .row-height {
         min-height: 100vh;
     }
 }
 
-/* Had to place 100VH in the row to get it to size properly on firefox- targeting geko engine specific */
+/* geko engine allows for vh on mobile and desktop. Used this to target mobile. */
 @-moz-document url-prefix() {
     .row-height {
         min-height: 100vh;
     }
 }
 
+/* ------------------------------------------------- */
+
+
+/*------- main paragraph styles----- */
 .content {
     color: #666666;
-    /* font-family: "Helvetica Neue", sans-serif; */
     font-size: 1.3rem;
-    /* line-height: 2.8rem; */
     font-weight: 300;
 }
+
+/* ----------Icon sizing & colors------ */
 
 .contact-size {
     font-size: 2.4rem;
@@ -54,8 +58,4 @@ body {
 
 .dribbble {
     color: #ea4c89;
-}
-
-.invision {
-    color: #ff3366;
 }
