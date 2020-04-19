@@ -16,11 +16,18 @@ body {
     min-height: -webkit-fill-available;
     height: -moz-available;
     height: fill-available;
-    /* Had to place 100VH in the row to get it to size properly on mobile firefox - android */
     /* min-height: 100vh; */
 
 
 }
+
+/* Had to place 100VH in the row to get it to size properly on firefox- targeting geko engine specific */
+@-moz-document url-prefix() {
+    .row-height {
+        min-height: 100vh;
+    }
+}
+
 
 
 
