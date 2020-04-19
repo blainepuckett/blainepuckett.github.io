@@ -7,15 +7,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-
 }
 
 
 .row-height {
     /* webkit-fill-available for safari mobile and desktop sizing properly */
     min-height: -webkit-fill-available;
-    height: -moz-available;
-    height: fill-available;
+    /* min-height: -moz-available; */
+    min-height: fill-available;
     /* min-height: 100vh; */
 }
 
@@ -32,9 +31,6 @@ body {
         min-height: 100vh;
     }
 }
-
-
-
 
 .content {
     color: #666666;
