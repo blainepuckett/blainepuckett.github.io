@@ -1,4 +1,5 @@
 body {
+    /* Had to put height 100% to get full VH to work on mobile chrome */
     height: 100%;
     margin: 0;
     background-image: url("/images/bkg-img-temp.jpg");
@@ -10,10 +11,13 @@ body {
 }
 
 .row-height {
-    min-height: 100vh;
+
+    /* webkit-fill-available for safari mobile sizing properly */
     min-height: -webkit-fill-available;
-    height: -moz-available;
-    height: fill-available;
+    /* Had to place 100VH in the row to get it to size properly on mobile firefox - android */
+    min-height: 100vh;
+    /* height: -moz-available; */
+    /* height: fill-available; */
 
 
 }
