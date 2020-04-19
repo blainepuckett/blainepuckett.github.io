@@ -17,7 +17,7 @@ body {
     height: -moz-available;
     height: fill-available;
     /* Had to place 100VH in the row to get it to size properly on mobile firefox - android */
-    min-height: 100vh;
+    /* min-height: 100vh; */
 
 
 }
