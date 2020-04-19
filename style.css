@@ -12,7 +12,7 @@ body {
 
 .row-height {
 
-    /* webkit-fill-available for safari mobile sizing properly */
+    /* webkit-fill-available for safari mobile and desktop sizing properly */
     min-height: -webkit-fill-available;
     /* Had to place 100VH in the row to get it to size properly on mobile firefox - android */
     min-height: 100vh;
