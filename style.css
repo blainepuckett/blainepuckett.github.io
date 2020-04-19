@@ -2,12 +2,15 @@ body {
     margin: 0;
     background-image: url("/images/bkg-img-temp.jpg");
     background-position: bottom right;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+
 }
 
 .row-height {
     min-height: -webkit-fill-available;
-    min-height: 100vh;
+    /* height: 100%; */
 }
 
 
