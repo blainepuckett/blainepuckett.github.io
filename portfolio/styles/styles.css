@@ -164,7 +164,7 @@ a.navbar-brand:hover {
 /* About Page Specific */
 
 .contact-size {
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .mail {
@@ -183,6 +183,9 @@ a.navbar-brand:hover {
     color: #ff3366;
 }
 
+.behance {
+    color: #0057ff;
+}
 
 
 
