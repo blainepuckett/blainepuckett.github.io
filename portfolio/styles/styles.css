@@ -29,6 +29,9 @@ p {
 .text-regular {
     font-weight: 400;
 }
+.text-semibold {
+    font-weight: 600;
+}
 
 .text-bold {
     font-weight: 700;
