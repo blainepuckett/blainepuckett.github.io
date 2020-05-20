@@ -29,6 +29,7 @@ p {
 .text-regular {
     font-weight: 400;
 }
+
 .text-semibold {
     font-weight: 600;
 }
@@ -38,6 +39,10 @@ p {
 }
 
 /* Font Sizes */
+
+.font-sm {
+    font-size: .8rem;
+}
 
 .font-md {
     font-size: 1rem;
