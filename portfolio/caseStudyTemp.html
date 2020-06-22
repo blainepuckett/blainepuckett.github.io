@@ -14,7 +14,7 @@
 
         gtag('config', 'UA-37972686-2');
     </script>
-    <title>Help Desk</title>
+    <title>BP - Case Study</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,9 +30,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Source+Sans+Pro&display=swap"
-        rel="stylesheet">
-
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/6b0f9ef547.js" crossorigin="anonymous"></script>
 
@@ -42,19 +39,36 @@
 
 <body>
     <!--Navigation Container-->
-    <div class="container-fluid bg-light shadow-sm sticky-top">
-        <!-- NAVIGATION-->
-        <div class="container brand-font">
-            <nav class="navbar navbar-expand-sm px-0 bg-light navbar-light " id="mainNav">
-                <a class="navbar-brand text-bold" href="/portfolio/index.html">BP</a>
+    <div class="container-fluid bg-white shadow-sm sticky-top nav-border">
+
+        <!-- X NAVIGATION -->
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light px-0 py-3" id="mainNav">
+                <a class="navbar-brand navbar-brand-color font-weight-bold" href="/portfolio/index.html">BP</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--Mobile Nav Links-->
                 <div class="collapse navbar-collapse align-items-center" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto align-items-center">
+                    <ul class="navbar-nav ml-auto d-sm-none" id="mobile_nav">
+                        <li class="nav-item btm-line pt-2">
+                            <a class="nav-link" href="/portfolio/index.html">Work</a>
+                        </li>
+                        <li class="nav-item btm-line">
+                            <a class="nav-link" href="/portfolio/resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio/about.html">About</a>
+                        </li>
+                    </ul>
+                    <!--Desktop Nav Links-->
+                    <ul class="navbar-nav ml-auto d-none d-sm-flex">
                         <li class="nav-item">
                             <a class="nav-link" href="/portfolio/index.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio/resume.html">Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/portfolio/about.html">About</a>
@@ -260,9 +274,27 @@
             </div>
         </div>
         <!--Footer-->
-        <footer id="fixed-footer" class="">
-            <div class="container border-top mt-2">
-                <p class="copyright text-right mt-2">Blaine Puckett Copyright &copy; 2020 </p>
+        <footer class="container-fluid bg-38">
+            <div class="container">
+                <div class="row footer align-items-center">
+                    <div class="col footer-text text-center">
+
+                        <p>
+                            <a href="mailto:first@blaine2.anonaddy.com" target="_top"><i
+                                    class="far fa-envelope"></i></a>
+                            <a href="https://www.behance.net/blainepuckett" target="_blank"><i
+                                    class="fab fa-behance"></i></a>
+                            <a href="https://www.linkedin.com/in/blainepuckett/" target="_blank" alt="linked in">
+                                <i class="fab fa-linkedin"></i></a>
+                            <a href="https://dribbble.com/puckett" target="_blank" alt="Dribble">
+                                <i class="fab fa-dribbble"></i></a>
+                        </p>
+                        <p>
+                            Blaine Puckett &copy; 2020
+                        </p>
+                    </div>
+
+                </div>
             </div>
         </footer>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
