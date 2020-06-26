@@ -56,6 +56,11 @@ a img:hover {
     color: #B8B8B8 !important;
 }
 
+.disclaimer-txt {
+    font-size: .8rem;
+    font-style: italic;
+}
+
 /*------------------*/
 /* TITLE LINE FLOURISHES */
 .work-title::after {
