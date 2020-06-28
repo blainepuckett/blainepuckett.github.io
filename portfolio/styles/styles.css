@@ -5,7 +5,7 @@ html {
 }
 
 /* All image links have shadow */
-a img:hover {
+.case-studies a img:hover {
     -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
     -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
     box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.4);
