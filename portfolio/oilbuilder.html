@@ -84,9 +84,9 @@
         <div class="row">
             <div class="col">
                 <!--sm-md-->
-                <img class="img-fluid d-block d-md-none" src="images/helpDeskMobile.jpg"  alt="Vehicle Selector Header Image">
+                <img class="img-fluid d-block d-md-none" src="images/OilBundleBuilderMobile.jpg"  alt="Vehicle Selector Header Image">
                 <!--md-header-img-->
-                <img  class="img-fluid d-none d-md-block mx-auto" src="images/helpdeskcase-study2.jpg"
+                <img  class="img-fluid d-none d-md-block mx-auto" src="images/OilBundleBuilder-CS.jpg"
                     alt="Vehicle Selector Header Image">
             </div>
         </div>
@@ -99,18 +99,18 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <!--Case Study Title-->
-                <h1 class="text-bold case-study-title">Vehicle Selector</h1>
+                <h1 class="text-bold case-study-title">Oil Bundle Builder</h1>
                
             <!--The Challenge-->
             <h3>The Challenge</h3>
             <p>
-                Unlike other products, automotive parts and accessories need to be specified with fitment data so that customers know if the part will fit their vehicle. Some parts have wide compatibility and other parts only fit specific years, makes, and models.  
-
+                Oil Change Specials are the combo meals of aftermarket auto parts. Simply put, it’s a motor oil and an oil filter at a discount. Selling the specials online was difficult due to part compatiblity. Oil filters are not a universal part. Because of how many products and combinations there could be, there was no easy way for customers to create or take advantage of the specials online. 
             </p>
-            <p>The challenge was to reduce the number of online returns by ensuring customers that they are purchasing the correct parts for their vehicle. 
+            <p>
+                The challenge was to create an experience which would allow the customers to easily select the two products they would need for their combo. Then the system would bundle them and apply the discount on the backend. 
             </p>
             <h6>My Role</h6>
-            <p>Analysis &bull; Wireframe &bull; Prototype &bull; Testing &bull; UI/UX</p>
+            <p>Analysis &bull; Wireframe &bull; Prototype &bull; Testing</p>
         </div>
         </div>
        </div>
@@ -121,11 +121,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <h3>Project Goals</h3>
-                    <h6 class="pt-2 font-weight-bold">Design a way to encourage customers to provide their vehicle information before purchase</h6>
-                    <p>A vehicle selector and “virtual garage” feature existed already, but customers were not utilizing it at a high rate. .</p>
-
-                    <h6 class="font-weight-bold">Ensure customers are aware of part compatibility for their vehicle</h6>
-                    <p>Identify and design a solution for all user touchpoints along the path-to-purchase where customers need to be made aware of fitment information.  </p>
+                    <h6 class="pt-2 font-weight-bold">Make it as easy to sell an Oil Change Special online as it is in the store</h6>
+                    <p>Oil Change Specials are among the most profitable reoccuring purchase customers make. .</p>
                 </div>
             </div>
         </div>
@@ -135,99 +132,108 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 pt-4">
-                <h3>Adding Your Vehicle</h3>
+                <h3>The Process</h3>
             </div>
         </div>
-        <!-- Competitive Analysis  -->
+        <!-- User Flow -->
         <div class="row justify-content-center pb-2">
 
             <div class="col-md-8 py-3">
-                <h5>Analysis & Testing</h5>
-                <p>We knew through analytics that customers who entered their vehicle information were 92% less likely to return a product due to improper fitment. First, we needed to understand why customers were not using this feature. 
+                <h5>User Flow </h5>
+                <p>I created a user flow diagram to understand all the user interactions required to achieve the goal of the bundle builder. After which, it became clear that I would need to map the customer journey into a handful of steps. 
                 </p>
-                <p> <span class="font-weight-bold">Is the workflow too complicated, or is the feature too difficult to find?</span><br>
-                    After conducting user testing and corroborating with the analytics team, it became clear the primary issues was discoverability. 
-                </p>
+                
             </div>
             <div class="col-md-12 pt-2">
-                <img class="img-fluid" src="images/comp.jpg">
+                <img class="img-fluid" src="images/BundleBuilderWorkflow.png">
             </div>
         </div>
 
-        <!-- Wireframes and Prototype -->
+        <!-- Customer Journey Map -->
         <div class="row justify-content-center pb-2">
             <div class="col-md-8 py-3">
-               
-                <h5>Sitemap and Wireframes</h5>
-                <p class="">I created a site map and organized the existing FAQ articles into some rough categories.</p>
-                        <img class="img-fluid py-4" src="images/SiteMap.jpg">
-                        <p>After it was determined that the site would need a handful of page templates, I created wireframes of the Homepage, Search Results, Categories, Article, and Contact Form.</p>
+                <h5>Customer Journey Map</h5>
+                <h6 class="pt-2 font-weight-bold">Scenario:</h6>
+                <p class="">Glenn has a Toyota Camry and a Toyota Yaris.<br>
+                    He needs to change the oil on both and wants to save some money buying the oil & filter as a bundle. </p>
+                        
+                <h6 class="pt-2 font-weight-bold">Expectation:</h6>
+                <p class="">Glenn finds the oil change special promotion link<br>
+                    Glenn uses the Bundle Builder to find the right oil & filter combo for each of his vehicles.   </p>
+            </div>
+            <div class="col-md-10 pt-2">
+                <img class="img-fluid" src="images/CustomerJourneyMap.png">
             </div>
         </div>
 
-        <!-- Wires Images -->
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                <img class="img-fluid py-4" src="images/helpDeskWires2.png">
+        <!-- Concepts & Wires -->
+        <div class="row justify-content-center pb-2">
+            <div class="col-md-8 py-3">
+                <h5>Concepts & Wireframes</h5>
+                <h6 class="pt-2 font-weight-bold">Concept 1</h6>
+                <p class="">I mocked up a wireframe to quickly gather feedback from the team on the overall layout and structure. The first concept was an ambitious attempt to do everyting on one long page. </p>
+
+                <h6 class="pt-2 font-weight-bold">The team provided some excellent feedback:</h6>
+                <ul>
+                    <li>Too long and clumsy on mobile devices</li>
+                    <li>Required too much conditional logic for each section</li>
+                    <li>Difficult to add a new vehicle to the virtual garage</li>
+                    <li>No price or brand filters on the oil section  </li>
+                </ul>
+            </div>
+            <div class="col-md-10 pt-2">
+                <img class="img-fluid" src="images/BBConcept1.png">
             </div>
             <div class="col-md-8 py-3">
-                <h5>Prototype</h5>
-                <p>After putting together a working mobile prototype, I conducted some initial hallway testing around the office, and with a handful of users. Initial testing and user feedback provided insight which lead to a few changes:</p>
+                <h6 class="pt-2 font-weight-bold">Concept 2</h6>
+                <p class="">The second concept was focused on addressing the pain points of the previous approach and trying to create a smoother mobile first experience. Moving away from the one long page approach, to a step by step process proved to be more user friendly. It allowed users to focus on each step and at a glance understand how far along in the process they were.</p>
+                <h6 class="pt-2 font-weight-bold">Key Improvements:</h6>
                 <ul>
-                    <li>A global search feature was added to give users a way to find answers without having to navigate back to the Search Results or Homepage.</li>
-                    <li>Breadcrumbs were added to make navigation quicker and easier.</li>
-                    <li>A persistent link to the advance e-commerce website was needed.
-                    </li>
-                    <li>A “Call Our Help Line” link was added for customers who preferred traditional telephone support.</li>
-                </ul>
-                <div class="text-center py-4">
-                    <a href="https://www.figma.com/proto/kY9pih4p7yejcus56aTPnw/helpDesk-Proto?node-id=1%3A179&scaling=scale-down"
-                        target="_blank"><button type="button" class="btn btn-outline-dark btn-lg">View
-                            Prototype</button></a>
+                    <li>Created a persistent step counter element to easily track progress and provide navigation</li>
+                    <li>Added a slide out filters drawer for oil types </li>
+                    <li>Included fitment and weight informationon the bundle confirmation step</li>
+                </ul>    
+            </div>     
+                <div class="col-md-10 pt-2">
+                    <img class="img-fluid" src="images/BBConcept2.png">
                 </div>
             </div>
-        </div>
+       
         <!-- UI & Branding -->
         <div class="row justify-content-center pb-2">
             <div class="col-md-8 py-3">
 
-                <h5>UI &amp; Branding</h5>
-                <p class="">Because the website was primarily text based, we had to follow the established typographic standards of the Advance brand. Uppercase Futura was used for headlines and Open Sans was used for body copy.</p>
-
-                <p class="font-weight-bold">There were a few other stipulations that had to be met:</p>
-                <ul>
-                    <li>The logo in the navigation bar had to have the red box around it.
-                    </li>
-                    <li>Yellow, Grey, Black and White had to be the primary colors. Red cold only be used as part of the logo.
-
-                    </li>
-                    <li> It had to feel like the Advance website, but it needed to be clear to customers that they were on a separate help page.</li>
-                </ul>
+                <h5>User Testing &amp; Prototype</h5>
+                <p class="">I conducted usability testing with customers and employees to validate the new approach. I created a script asking users to build various combinations and select between two vehicles. During the sessions, I observed how they interacted with the prototypes and used the feedback to inform further design iteration. </p>
             </div>
-            <!-- Branding Guidelines -->
-            <div class="col-md-12 py-4">
-                <img class="img-fluid" src="images/Brand.png">
+            <div class="col-md-10 pt-2">
+                <img class="img-fluid" src="images/BBConcept3.png">
+            </div>
+            <div class="col-md-8 py-3">
+                <p class="text-center pt-4">To experience the final prototype for yourself click the button below.</p>
+            <div class="text-center py-2">
+                <a href="https://www.figma.com/proto/sNPgLqVrIfasxGTj1hcony/BundleBuilderProto?node-id=1%3A3&scaling=min-zoom"
+                    target="_blank"><button type="button" class="btn btn-outline-dark btn-lg">View Final
+                        Prototype</button></a>
+            </div>
             </div>
         </div>
         <!-- Recap and Reflection -->
         <div class="row justify-content-center pb-2">
             <div class="col-md-8 py-3">
                 <h5>Recap and Reflection</h5>
-                <p class="">Overall the help desk platform was rolled out and achieved its goal of modernizing the customer service experience. 
-                    Customers responded favorably to the site and we continued to monitor and make changes after the site went live. 
-                </p>
-                <p>
-                    One change worth noting is in the “still need help section.” Orignally it was hidden slighty to encourage customers to use the search function before making a phone call or sending a support ticket. While initial testing didn’t raise any flags with the placement, after the site went live customers were quite vocal about how difficult it was to find the contact information. 
-                </p>
+                <p class="">The  implementation of the bundle builder allowed customers to purchase oil change specials online for the first time. This contributed significantly to an increase in online sales of motor oil. Additionally, users found the process intuitive and plans were put in motion to create a similar experience for Brakes, Pads, & Rotors.</p>
             </div>
         </div>
         <div class="row justify-content-center py-4">
             <div class="col-md-8 py-3">
                 <p class="text-center">
-                    The site is the still the primary platform for customer service.<br> The team has continued to expand the content and refine the experience over time. To view and interact with the help desk as it exists today, click the button below. </p>
+                    The team has continued to refine the experience over time.<br>
+                     To build your own bundle, click the button below. 
+                </p>
                 <div class="text-center py-4">
-                    <a href="https://help-desk.advanceautoparts.com/s/" target="_blank"><button type="button"
-                            class="btn btn-outline-dark btn-lg">View Help Desk</button></a>
+                    <a href="https://shop.advanceautoparts.com/s/oil-change-bundle" target="_blank"><button type="button"
+                            class="btn btn-outline-dark btn-lg">Build Your Own Bundle</button></a>
                         </div>
             </div>
         </div>
