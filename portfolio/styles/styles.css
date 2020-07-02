@@ -108,6 +108,5 @@ html {
 /* ABOUT */
 .quote {
     font-style: italic;
-    
-    padding: 2rem;
+    margin-left: 24px;
 }
