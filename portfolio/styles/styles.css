@@ -104,3 +104,10 @@ html {
     list-style: none;
     padding-left: 0;
 }
+/*------------------*/
+/* ABOUT */
+.quote {
+    font-style: italic;
+    
+    padding: 2rem;
+}
