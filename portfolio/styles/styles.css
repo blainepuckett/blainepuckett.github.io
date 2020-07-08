@@ -97,6 +97,11 @@ html {
     font-weight: 600;
 }
 
+.other-skills {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
 /*------------------*/
 /* RESUME */
 
@@ -104,9 +109,16 @@ html {
     list-style: none;
     padding-left: 0;
 }
+
 /*------------------*/
 /* ABOUT */
 .quote {
     font-style: italic;
     margin-left: 24px;
+}
+
+/*------------------*/
+/* OTHERWORK */
+.bg-az {
+    background-color: #F37101;
 }
