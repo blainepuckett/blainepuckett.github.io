@@ -1,13 +1,13 @@
 /* -----Body background image--------------- */
 body {
     /* Had to put height 100% to get full VH to work on Chrome Mobile */
-    height: 100%;
+    /*Remove background image OCt-28-2024*/
+    /*height: 100%;
     margin: 0;
     background-image: url("/images/bkg-img-temp.jpg");
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: cover;*/
 }
 
 /* ---------Settings heights for the main content block ------*/
